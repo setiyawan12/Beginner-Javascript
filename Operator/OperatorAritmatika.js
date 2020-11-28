@@ -6,7 +6,8 @@ console.log(12+1);
 //End//
 
 //Dengan Metode Variable//
-var nilai1 = 10, nilai2 = 5;
+var nilai1 = 10;
+var nilai2 = 5;
 
 //===========================
 //Penjumlahan, Pada JavaScript, operator penjumlahan menggunakan karakter plus, +.
