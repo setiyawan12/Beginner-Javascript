@@ -26,9 +26,13 @@ console.log(mhs.sort());
 console.log(angka.sort());
 console.log(angka.reverse());
 
-//slice
 //splice(indexAwal , Mau di hapus berapa , elementbaru1 ,elemenbaru2, ......)
-let slice = ['yayang','felix','faqih','alif']
-slice.splice(2, 0,'ade','padil');
-console.log(slice);
+let splice = ['yayang','felix','faqih','alif']
+splice.splice(2, 0,'ade','padil');
+console.log(splice);
 // console.log(slice.join('-'));
+
+// slice nilai awal sampai nilai akhir di tentukan
+let slice = ['yayang','felix','faqih','alif']
+let slice1 = slice.slice(2,4)
+console.log(slice1);
