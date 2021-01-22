@@ -1,4 +1,4 @@
-var penumpang = ['yayang', undefined  , 'setiyawan'];
+var penumpang = [];
  var tambahPenumpang = function (namaPenumpang, penumpang) {
      if(penumpang.length == 0){
          penumpang.push(namaPenumpang);
@@ -18,5 +18,20 @@ var penumpang = ['yayang', undefined  , 'setiyawan'];
                  return penumpang;
              }
          }
+     }
+ }
+
+ var hapusPenumpang = function (namaPenumpang, penumpang) {
+     if(penumpang.length == 0){
+         console.log('Angkot Masih Kosong');
+     }else{
+         for (i = 0 ; i<penumpang.length; i++){
+             if(penumpang[i] == namaPenumpang){
+             penumpang[i] = undefined;
+         }else if(i == penumpang.length -1){
+             console.log(namaPenumpang+'Tidak ada di dalam Angkot');
+             return penumpang;
+         }
+        }
      }
  }
